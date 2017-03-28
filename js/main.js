@@ -1,5 +1,5 @@
-// alert('test') // use in every js, makes sure no errors, will load when ok
-// my key = 5ce6b83301976eb63b4e1ef9fa75df49
+//alert('test') // use in every js, makes sure no errors, will load when ok
+// my (our) key = 03e4633e2d85874a921380e47cac705d
 
 
 $('#weather').submit(function(e){		// e and e.preventDefault = do not submit the form
@@ -12,6 +12,7 @@ $('#weather').submit(function(e){		// e and e.preventDefault = do not submit the
 	$('#weatherGoesHere').html(''); 	// gets rid of old data
 console.log(url)
 										// when submit/hit ENTER run the url, but replace "cincinnati" with the typed in city/zip of the text box
+
 
 $.ajax({url: url, 
 	success: function(response){
@@ -29,3 +30,4 @@ $.ajax({url: url,
 			})					// .weather is actually an array inside the object, needs [0]
 	}})							// boatstrap within div 
 })
+
