@@ -1,37 +1,31 @@
-/* pink #DB8AA9 , purple #7778B9 , light blue #83BFDE , yellow #FFD90B */
+/* */
+h1, h2, h3, h4, h5, h6, i, p, li {
+  font-size: 15px;
+  text-align: center; }
+
+* {
+  box-sizing: border-box; }
+
 body {
-  font-family: 'Neucha', cursive;
-  color: #FFD90B;
-  background-color: #FFD90B;
-  font-size: 20px;
-  background-image: url("http://vignette2.wikia.nocookie.net/simpsons/images/b/b7/Simspons_Clouds.jpg/revision/latest?cb=20100824223324");
-  background-size: cover;
-  background-position: 0px -200px; }
-  body #header {
-    padding-top: 3px; }
-  body .appName {
-    color: #FFD90B; }
-  body hr {
-    border: 0px;
-    width: 80%;
-    background-color: #FFD90B;
-    height: 5px; }
-  body .top {
+  color: #1D0F48;
+  font-size: 20px; }
+  body #Location {
+    margin-left: 45%;
+    margin-top: 5px; }
+  body #bg {
+    background-image: url("http://www.wallpaperscharlie.com/wp-content/uploads/2016/05/Snowfall-HD-Backgrounds-14.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100%; }
+  body h1 {
+    font-size: 50px;
     text-align: center; }
-    body .top h1 {
-      font-size: 75px;
-      text-align: center;
-      text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); }
-  body #searchResults .song {
-    padding-top: 10px;
-    height: 500px; }
-    body #searchResults .song:hover {
-      background-color: #DB8AA9; }
-    body #searchResults .song .bgImage {
-      height: 300px;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center; }
+  body #weatherGoesHere {
+    margin-left: 35px;
+    margin-top: 125px; }
+    body #weatherGoesHere div {
+      width: 13%; }
 
 /* Make stack vertically (one column) when browser "on sufficiently small screens" */
 @media screen and (max-width: 990px) {
